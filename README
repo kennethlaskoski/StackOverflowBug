@@ -1,4 +1,4 @@
-This code contains a bug which I call subtle because it runs flawlessly on iOS Simulator and crashes shamefully on a real device.
-Spoiler ahead: what happens on a real device is the classic stack overflow due to allocation of a very large variable.
+This code contains a bug that I call subtle because the binary runs flawlessly on iOS Simulator and crashes shamefully on a real device.
+Spoiler ahead: what happens on a real device is a classic *stack overflow* due to allocation of a very large variable.
 The simulator uses the much larger x86 stack, so all goes well.
 http://en.wikipedia.org/wiki/Stack_overflow#Very_large_stack_variables
