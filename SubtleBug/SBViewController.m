@@ -66,7 +66,10 @@ int n(int l)
     int k = l(i,j);
     int local[s];
     local[k] = -data[k];
-    self.result.text = [NSString stringWithFormat:@"%d %d %d %d %d", m(k), n(k), k, data[k], local[k]];
+    NSString *output = @"placeholder...";
+    output = [NSString stringWithFormat:@"%d %d %d %d %d", m(k), n(k), k, data[k], local[k]];
+    NSLog(@"%@", output);
+    self.result.text = output;
 }
 
 @end
