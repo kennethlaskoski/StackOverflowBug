@@ -208,6 +208,11 @@
 				CLASSPREFIX = SB;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Tractrix;
+				TargetAttributes = {
+					9FE1E4C317DC3DCD0039D5BD = {
+						DevelopmentTeam = 4HDBBU25PK;
+					};
+				};
 			};
 			buildConfigurationList = 9FE1E4BF17DC3DCD0039D5BD /* Build configuration list for PBXProject "SubtleBug" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -417,6 +422,7 @@
 		9FE1E4FD17DC3DCD0039D5BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4HDBBU25PK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SubtleBug/SubtleBug-Prefix.pch";
 				INFOPLIST_FILE = "SubtleBug/SubtleBug-Info.plist";
@@ -429,6 +435,7 @@
 		9FE1E4FE17DC3DCD0039D5BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4HDBBU25PK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SubtleBug/SubtleBug-Prefix.pch";
 				INFOPLIST_FILE = "SubtleBug/SubtleBug-Info.plist";
