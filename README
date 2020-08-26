@@ -1,4 +1,4 @@
 This code runs flawlessly on iOS Simulator and crashes shamefully on a real device.
-Spoiler ahead: what happens on a real device is a classic *stack overflow* due to allocation of a very large variable.
+What happens on a real device is a classic *stack overflow* due to allocation of a very large variable.
 On the simulator, which uses the much larger x86 stack, all goes well.
 http://en.wikipedia.org/wiki/Stack_overflow#Very_large_stack_variables
